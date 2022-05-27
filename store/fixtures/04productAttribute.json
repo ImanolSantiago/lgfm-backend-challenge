@@ -1,0 +1,197 @@
+[
+{
+    "pk": 1, 
+    "model": "catalogue.productattribute", 
+    "fields": {
+        "required": true, 
+        "product_class": 1, 
+        "option_group": 1, 
+        "code": "size", 
+        "type": "option", 
+        "name": "Size"
+    }
+},
+{
+    "pk": 1, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 2, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": 1, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 2, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 3, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": 2, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 3, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 4, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": 3, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 4, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 6, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": 1, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 5, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 7, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": 2, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 6, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 9, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": 1, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 7, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 10, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": 2, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 8, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 11, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": 3, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 1, 
+    "model": "catalogue.attributeoptiongroup", 
+    "fields": {
+        "name": "Sizes"
+    }
+},
+{
+    "pk": 1, 
+    "model": "catalogue.attributeoption", 
+    "fields": {
+        "group": 1, 
+        "option": "Small"
+    }
+},
+{
+    "pk": 2, 
+    "model": "catalogue.attributeoption", 
+    "fields": {
+        "group": 1, 
+        "option": "Medium"
+    }
+},
+{
+    "pk": 3, 
+    "model": "catalogue.attributeoption", 
+    "fields": {
+        "group": 1, 
+        "option": "Large"
+    }
+}
+]

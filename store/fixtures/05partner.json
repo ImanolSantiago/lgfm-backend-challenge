@@ -1,0 +1,11 @@
+[
+{
+    "pk": 2, 
+    "model": "partner.partner", 
+    "fields": {
+        "code": "clothing-partner", 
+        "name": "Clothing partner", 
+        "users": []
+    }
+}
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "pk": 1,
+    "model": "partner.stockrecord",
+    "fields": {
+      "price_currency": "EUR",
+      "product": 6,
+      "partner_sku": "clf-large",
+      "date_updated": "2013-12-13T11:37:08.232Z",
+      "num_in_stock": 0,
+      "num_allocated": null,
+      "low_stock_threshold": null,
+      "date_created": "2013-12-13T11:37:08.232Z",
+      "partner": 2,
+      "price": "10"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "partner.stockrecord",
+    "fields": {
+      "price_currency": "EUR",
+      "product": 7,
+      "partner_sku": "clf-med",
+      "date_updated": "2013-12-13T11:37:45.928Z",
+      "num_in_stock": 0,
+      "num_allocated": null,
+      "low_stock_threshold": null,
+      "date_created": "2013-12-13T11:37:45.928Z",
+      "partner": 2,
+      "price": "10"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "partner.stockrecord",
+    "fields": {
+      "price_currency": "EUR",
+      "product": 9,
+      "partner_sku": "tng-small",
+      "date_updated": "2013-12-13T11:38:49.858Z",
+      "num_in_stock": 100,
+      "num_allocated": null,
+      "low_stock_threshold": null,
+      "date_created": "2013-12-13T11:38:49.858Z",
+      "partner": 2,
+      "price": "15"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "partner.stockrecord",
+    "fields": {
+      "price_currency": "EUR",
+      "product": 10,
+      "partner_sku": "tng-med",
+      "date_updated": "2013-12-13T11:39:12.947Z",
+      "num_in_stock": 200,
+      "num_allocated": null,
+      "low_stock_threshold": null,
+      "date_created": "2013-12-13T11:39:12.947Z",
+      "partner": 2,
+      "price": "15"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "partner.stockrecord",
+    "fields": {
+      "price_currency": "EUR",
+      "product": 11,
+      "partner_sku": "tng-large",
+      "date_updated": "2013-12-13T11:39:53.162Z",
+      "num_in_stock": 0,
+      "num_allocated": null,
+      "low_stock_threshold": null,
+      "date_created": "2013-12-13T11:39:53.162Z",
+      "partner": 2,
+      "price": "15"
+    }
+  }
+]

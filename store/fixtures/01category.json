@@ -1,0 +1,15 @@
+[
+{
+    "pk": 1, 
+    "model": "catalogue.category", 
+    "fields": {
+        "description": "", 
+        "numchild": 0, 
+        "slug": "clothing", 
+        "depth": 1, 
+        "path": "0001",
+        "image": "", 
+        "name": "Clothing"
+    }
+}
+]

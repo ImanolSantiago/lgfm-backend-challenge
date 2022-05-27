@@ -1,0 +1,200 @@
+[
+{
+    "pk": 1, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": null, 
+        "title": "Oscar T-shirt", 
+        "date_updated": "2013-12-12T16:33:57.426Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-12T16:33:57.426Z", 
+        "product_options": [], 
+        "slug": "oscar-t-shirt", 
+        "product_class": 1,
+        "structure": "parent"
+    }
+},
+{
+    "pk": 2, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": 1, 
+        "title": "", 
+        "date_updated": "2013-12-12T16:34:14.023Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-12T16:34:14.023Z", 
+        "product_options": [], 
+        "slug": "oscar-t-shirt", 
+        "product_class": null,
+        "structure": "child"
+    }
+},
+{
+    "pk": 3, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": 1, 
+        "title": "", 
+        "date_updated": "2013-12-12T16:34:32.170Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-12T16:34:32.170Z", 
+        "product_options": [], 
+        "slug": "oscar-t-shirt", 
+        "product_class": null,
+        "structure": "child"
+    }
+},
+{
+    "pk": 4, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": 1, 
+        "title": "", 
+        "date_updated": "2013-12-12T17:32:15.016Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-12T17:32:15.016Z", 
+        "product_options": [], 
+        "slug": "oscar-t-shirt", 
+        "product_class": null,
+        "structure": "child"
+    }
+},
+{
+    "pk": 5, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": null, 
+        "title": "commandlinefu T-shirt", 
+        "date_updated": "2013-12-13T11:34:21.810Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-13T11:34:21.810Z", 
+        "product_options": [], 
+        "slug": "commandlinefu-t-shirt", 
+        "product_class": 1,
+        "structure": "parent"
+    }
+},
+{
+    "pk": 6, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": 5, 
+        "title": "", 
+        "date_updated": "2013-12-13T11:37:08.138Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-13T11:37:08.138Z", 
+        "product_options": [], 
+        "slug": "commandlinefu-t-shirt", 
+        "product_class": null,
+        "structure": "child"
+    }
+},
+{
+    "pk": 7, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": 5, 
+        "title": "", 
+        "date_updated": "2013-12-13T11:37:45.834Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-13T11:37:45.834Z", 
+        "product_options": [], 
+        "slug": "commandlinefu-t-shirt", 
+        "product_class": null,
+        "structure": "child"
+    }
+},
+{
+    "pk": 8, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": null, 
+        "title": "Django T-shirt",
+        "date_updated": "2013-12-13T11:38:15.107Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-13T11:38:15.107Z", 
+        "product_options": [], 
+        "slug": "django-t-shirt",
+        "product_class": 1,
+        "structure": "parent"
+    }
+},
+{
+    "pk": 9, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": 8, 
+        "title": "", 
+        "date_updated": "2013-12-13T11:38:49.769Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-13T11:38:49.769Z", 
+        "product_options": [], 
+        "slug": "django-t-shirt",
+        "product_class": null,
+        "structure": "child"
+    }
+},
+{
+    "pk": 10, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": 8, 
+        "title": "", 
+        "date_updated": "2013-12-13T11:39:12.859Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-13T11:39:12.859Z", 
+        "product_options": [], 
+        "slug": "django-t-shirt",
+        "product_class": null,
+        "structure": "child"
+    }
+},
+{
+    "pk": 11, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null, 
+        "description": "", 
+        "parent": 8, 
+        "title": "", 
+        "date_updated": "2013-12-13T11:39:53.073Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2013-12-13T11:39:53.073Z", 
+        "product_options": [], 
+        "slug": "django-t-shirt",
+        "product_class": null,
+        "structure": "child"
+    }
+}
+]
