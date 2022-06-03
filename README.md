@@ -41,3 +41,26 @@ Tasks
 - [ ] Create the endpoints described in Requirements the best you can.
 - [ ] OPTIONAL: If you want to impress, implement authentication for the 3 endpoints (e.g. session or token)
 - [ ] Make a pull request when you are done.
+
+
+Resolucion
+------------
+Comentarios
+    /api/product-types//?detailed=PARAMETRO
+        PARAMETRO=> True o False
+        Por defecto trae los tipos "Books" y "Clothing". En el caso de especificar el parametro como True, se añade los subgeneros de libros.
+
+    /api/books/?genre=PARAMETRO
+        Parametros disponibles:
+            *Books
+            *Fiction
+            *Computers in Literature
+            *Non-Fiction
+            *Essential programming
+            *Hacking
+        No influyen las mayusculas/minusculas. Ni los espacios en los extremos del parametros. Estan contemplados.
+
+    Mejoras:
+        En el endpoint de "product-types", que los subjeneros queden anidados correctamente dentro de "Books". Sin importar la cantidad de "padres" e "hijos".
+        En el endpoint de "books", poder utilizar una relacion entre los modelos de los productos y las categorias.
+        Reutilizar mejor los serializers heredando ciertos atributos en comun.
